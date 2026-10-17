@@ -11,13 +11,14 @@ Live at **https://wiki.arabdev.site**
 index.html     opens the language the reader last used (Arabic by default)
 ar/index.html  the Arabic pages
 en/index.html  the English pages
-assets/        stylesheet, script and self-hosted fonts
+assets/        stylesheets, scripts and self-hosted fonts (site.css and site.js are
+               shared with the other ArabDev documentation sites)
 favicon.svg
 ```
 
 It is a plain static site: HTML, CSS and a little JavaScript, with no build step and no
 dependencies. Everything is readable without JavaScript; the script only adds conveniences such as
-search, the contents list and the light/dark switch.
+search, the contents list, the phone menu and the light/dark switch. The look matches the ArabDev app.
 
 ## Deploying
 
